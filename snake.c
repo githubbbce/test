@@ -32,6 +32,9 @@ void new_food(void) {
         food.x = rand() % W; food.y = rand() % H; ok = 1;
         for (i = 0; i < n; i++) if (food.x == s[i].x && food.y == s[i].y) ok = 0;
     } while (!ok);
+    {
+        {}
+    }//你好
 }
 
 int main(void) {
@@ -60,3 +63,5 @@ int main(void) {
     }
 end: draw(); puts("Game over!"); return 0;
 }
+
+
